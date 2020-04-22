@@ -2,15 +2,17 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const glob = require('glob');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
+
+const projectRoot = process.cwd();
 
 const setMPA = () => {
     const entry = {};
     const HtmlWebpackPlugins = [];
 
-    const entryFiles = glob.sync(path.join(__dirname, './src/*/index.js'))
+    const entryFiles = glob.sync(path.join(projectRoot, './src/*/index.js'))
 
     entryFiles.map((item, index) => {
         const entryFile = item;
@@ -18,9 +20,9 @@ const setMPA = () => {
         const pageName = match && match[1];
 
         entry[pageName] = entryFile;
-        HtmlWebpackPlugins.push(
+        return HtmlWebpackPlugins.push(
             new HtmlWebpackPlugin ({
-                template: path.join(__dirname, `src/${pageName}/index.html`),
+                template: path.join(projectRoot, `src/${pageName}/index.html`),
                 filename: `${pageName}.html`,
                 chunks: [pageName],
                 inject: true,
@@ -71,7 +73,7 @@ module.exports = {
                         loader: 'postcss-loader',
                         options: {
                             plugins: () => [
-                                require('autoprefixer')({
+                                autoprefixer({
                                     overrideBrowserslist: ['last 2 version', '>1%', 'ios 7']
                                 })
                             ]
@@ -100,15 +102,13 @@ module.exports = {
             filename: '[name]_[contenthash:8].css'
         }),
         new CleanWebpackPlugin(),
-        new FriendlyErrorsWebpackPlugin(),
-        function () {
-            this.hooks.done.tap('done', (stats) => {
-                if (stats.compilation.errors && process.argv.indexOf('--watch') == -1) {
-                    console.log('build error');
-                    process.exit(1);
-                }
-            })
-        }
-    ].concat(HtmlWebpackPlugins),
-    stats: 'errors-only'
+        // new FriendlyErrorsWebpackPlugin(),
+        // function errorPlugin () {
+        //     this.hooks.done.tap('done', (stats) => {
+        //         if (stats.compilation.errors && process.argv.indexOf('--watch') === -1) {
+        //             process.exit(1);
+        //         }
+        //     })
+        // }
+    ].concat(HtmlWebpackPlugins)
 }

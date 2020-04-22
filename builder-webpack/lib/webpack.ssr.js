@@ -2,6 +2,7 @@ const merge = require('webpack-merge')
 const baseConfig = require('./webpack.base');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
+const cssnano = require('cssnano');
 
 const prodConfig = {
     mode: 'production',
@@ -24,7 +25,7 @@ const prodConfig = {
     plugins: [
         new OptimizeCSSAssetsPlugin ({
             assetNameRegExp: /\.css$/g,
-            cssProcessor: require('cssnano')
+            cssProcessor: cssnano
         }),
         new HtmlWebpackExternalsPlugin({
             externals: [
