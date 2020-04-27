@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import './search.less';
 import avatar from '../assets/avatar.jpg';
 import {a} from './tree-shaking';
+import bg from '../assets/bg.jpg';
 
 export default class Search extends React.Component {
     constructor () {
@@ -29,6 +30,7 @@ export default class Search extends React.Component {
                 }
                 Search MichLiu123123
                 <img src={avatar} alt="" onClick= {this.loadComponent.bind(this)}/>
+                <img src={ bg } alt="" />
             </div>
         )
     }
