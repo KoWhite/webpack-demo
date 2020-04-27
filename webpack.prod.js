@@ -10,6 +10,7 @@ const autoprefixer = require("autoprefixer");
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const speedMeasureWebpackPlugin = require('speed-measure-webpack-plugin');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const setMPA = () => {
     const entry = {};
@@ -130,6 +131,7 @@ module.exports = smp.wrap({
                 
             ]
         }),
+        new BundleAnalyzerPlugin ({analyzerPort: 8889 }),
         // new FriendlyErrorsWebpackPlugin(),
         // function () {
         //     this.hooks.done.tap('done', (stats) => {
