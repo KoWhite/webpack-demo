@@ -1,0 +1,1894 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.1",
+  "hash": "00babb474353dcd20b6e",
+  "time": 3053,
+  "builtAt": 1587952185531,
+  "publicPath": "",
+  "outputPath": "D:\\demo\\wp-demo\\dist",
+  "assetsByChunkName": {
+    "index": "index_7503ad94.js",
+    "search": [
+      "search_c881a2b2.css",
+      "search_87d2ac09.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "2_cbd23c63.js",
+      "size": 183,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "avatar_a68a6402.jpg",
+      "size": 38302,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 375,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index_7503ad94.js",
+      "size": 961,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "search.html",
+      "size": 659,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "search_87d2ac09.js",
+      "size": 4450,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "search"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "search_c881a2b2.css",
+      "size": 70,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "search"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index_7503ad94.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "search": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "search_c881a2b2.css",
+        "search_87d2ac09.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "index_7503ad94.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "search": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "search_c881a2b2.css",
+        "search_87d2ac09.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 30,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index_7503ad94.js"
+      ],
+      "hash": "7503ad94142f029c5056",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\index\\index.js",
+          "name": "./src/index/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 30,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/demo/wp-demo/src/index/index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "document.write('hello world');"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "D:/demo/wp-demo/src/index/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 4544,
+      "names": [
+        "search"
+      ],
+      "files": [
+        "search_c881a2b2.css",
+        "search_87d2ac09.js"
+      ],
+      "hash": "87d2ac091dc16a555e3d",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        2
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"React\"",
+          "name": "external \"React\"",
+          "index": 2,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "23:0-26"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "60:26-31"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "62:29-34"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "62:106-111"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "71:2-7"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "74:30-35"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\text.js",
+              "module": "./src/search/text.js",
+              "moduleName": "./src/search/text.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "1:12-28"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 1,
+          "identifier": "external \"ReactDOM\"",
+          "name": "external \"ReactDOM\"",
+          "index": 3,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "24:0-33"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "74:0-8"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "name": "./src/search/search.css",
+          "index": 4,
+          "index2": 4,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./search.css",
+              "loc": "25:0-22"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": 4,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "name": "./src/search/index.js + 2 modules",
+          "index": 1,
+          "index2": 7,
+          "size": 4319,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "avatar_a68a6402.jpg"
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/demo/wp-demo/src/search/index.js",
+              "loc": "search"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with external \"React\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"ReactDOM\" (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js",
+              "index": 1,
+              "index2": 7,
+              "size": 4140,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:/demo/wp-demo/src/search/index.js",
+                  "loc": "search"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nimport React from 'react';\nimport ReactDom from 'react-dom';\nimport './search.css';\nimport avatar from '../assets/avatar.jpg';\nimport { a } from './tree-shaking';\n\nvar Search = /*#__PURE__*/function (_React$Component) {\n  _inherits(Search, _React$Component);\n\n  var _super = _createSuper(Search);\n\n  function Search() {\n    var _this;\n\n    _classCallCheck(this, Search);\n\n    _this = _super.apply(this, arguments);\n    _this.state = {\n      Text: null\n    };\n    return _this;\n  }\n\n  _createClass(Search, [{\n    key: \"loadComponent\",\n    value: function loadComponent() {\n      var _this2 = this;\n\n      import('./text.js').then(function (Text) {\n        _this2.setState({\n          Text: Text.default\n        });\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        class: \"search-text\"\n      }, Text ? /*#__PURE__*/React.createElement(Text, null) : null, \"Search MichLiu123123\", /*#__PURE__*/React.createElement(\"img\", {\n        src: avatar,\n        alt: \"\",\n        onClick: this.loadComponent.bind(this)\n      }));\n    }\n  }]);\n\n  return Search;\n}(React.Component);\n\nexport { Search as default };\nReactDom.render( /*#__PURE__*/React.createElement(Search, null), document.getElementById('root'));"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\file-loader\\dist\\cjs.js??ref--7!D:\\demo\\wp-demo\\src\\assets\\avatar.jpg",
+              "name": "./src/assets/avatar.jpg",
+              "index": 6,
+              "index2": 5,
+              "size": 63,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "issuerId": null,
+              "issuerName": "./src/search/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+                  "name": "./src/search/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+                "avatar_a68a6402.jpg"
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../assets/avatar.jpg",
+                  "loc": "26:0-42"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../assets/avatar.jpg",
+                  "loc": "63:13-19"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export default __webpack_public_path__ + \"avatar_a68a6402.jpg\";"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\tree-shaking.js",
+              "name": "./src/search/tree-shaking.js",
+              "index": 7,
+              "index2": 6,
+              "size": 101,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "issuerId": null,
+              "issuerName": "./src/search/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+                  "name": "./src/search/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./tree-shaking",
+                  "loc": "27:0-35"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "a",
+                "b"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export function a() {\n  return 'this is func a';\n}\nexport function b() {\n  return 'this is func b';\n}"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": "",
+          "identifier": "css D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+          "index": 5,
+          "index2": 3,
+          "size": 102,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "issuerId": 3,
+          "issuerName": "./src/search/search.css",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            },
+            {
+              "id": 3,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "name": "./src/search/search.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "module": "./src/search/search.css",
+              "moduleName": "./src/search/search.css"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "search",
+          "request": "D:/demo/wp-demo/src/search/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 143,
+      "names": [],
+      "files": [
+        "2_cbd23c63.js"
+      ],
+      "hash": "cbd23c637a393c2a4233",
+      "siblings": [],
+      "parents": [
+        1
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 5,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\text.js",
+          "name": "./src/search/text.js",
+          "index": 8,
+          "index2": 8,
+          "size": 143,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "import()",
+              "userRequest": "./text.js",
+              "loc": "51:6-25"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/search/index.js (referenced with import())"
+          ],
+          "depth": 1,
+          "source": "var React = require('react');\n\nexport default (function () {\n  return /*#__PURE__*/React.createElement(\"div\", null, \"\\u52A8\\u6001 import\");\n});"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": null,
+          "module": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "moduleName": "./src/search/index.js",
+          "loc": "51:6-25",
+          "request": "./text.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external \"React\"",
+      "name": "external \"React\"",
+      "index": 2,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "23:0-26"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "60:26-31"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "62:29-34"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "62:106-111"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "71:2-7"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "74:30-35"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\text.js",
+          "module": "./src/search/text.js",
+          "moduleName": "./src/search/text.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "1:12-28"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "external \"ReactDOM\"",
+      "name": "external \"ReactDOM\"",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "24:0-33"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "74:0-8"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 2,
+      "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\index\\index.js",
+      "name": "./src/index/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 30,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:/demo/wp-demo/src/index/index.js",
+          "loc": "index"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "document.write('hello world');"
+    },
+    {
+      "id": 3,
+      "identifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+      "name": "./src/search/search.css",
+      "index": 4,
+      "index2": 4,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./search.css",
+          "loc": "25:0-22"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": 4,
+      "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js a93dd73ec45d7a543bc893a432dceaac",
+      "name": "./src/search/index.js + 2 modules",
+      "index": 1,
+      "index2": 7,
+      "size": 4319,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "avatar_a68a6402.jpg"
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:/demo/wp-demo/src/search/index.js",
+          "loc": "search"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with external \"React\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"ReactDOM\" (<- Module is not an ECMAScript module)"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js",
+          "index": 1,
+          "index2": 7,
+          "size": 4140,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/demo/wp-demo/src/search/index.js",
+              "loc": "search"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nimport React from 'react';\nimport ReactDom from 'react-dom';\nimport './search.css';\nimport avatar from '../assets/avatar.jpg';\nimport { a } from './tree-shaking';\n\nvar Search = /*#__PURE__*/function (_React$Component) {\n  _inherits(Search, _React$Component);\n\n  var _super = _createSuper(Search);\n\n  function Search() {\n    var _this;\n\n    _classCallCheck(this, Search);\n\n    _this = _super.apply(this, arguments);\n    _this.state = {\n      Text: null\n    };\n    return _this;\n  }\n\n  _createClass(Search, [{\n    key: \"loadComponent\",\n    value: function loadComponent() {\n      var _this2 = this;\n\n      import('./text.js').then(function (Text) {\n        _this2.setState({\n          Text: Text.default\n        });\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        class: \"search-text\"\n      }, Text ? /*#__PURE__*/React.createElement(Text, null) : null, \"Search MichLiu123123\", /*#__PURE__*/React.createElement(\"img\", {\n        src: avatar,\n        alt: \"\",\n        onClick: this.loadComponent.bind(this)\n      }));\n    }\n  }]);\n\n  return Search;\n}(React.Component);\n\nexport { Search as default };\nReactDom.render( /*#__PURE__*/React.createElement(Search, null), document.getElementById('root'));"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\file-loader\\dist\\cjs.js??ref--7!D:\\demo\\wp-demo\\src\\assets\\avatar.jpg",
+          "name": "./src/assets/avatar.jpg",
+          "index": 6,
+          "index2": 5,
+          "size": 63,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "avatar_a68a6402.jpg"
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../assets/avatar.jpg",
+              "loc": "26:0-42"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "../assets/avatar.jpg",
+              "loc": "63:13-19"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default __webpack_public_path__ + \"avatar_a68a6402.jpg\";"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\tree-shaking.js",
+          "name": "./src/search/tree-shaking.js",
+          "index": 7,
+          "index2": 6,
+          "size": 101,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./tree-shaking",
+              "loc": "27:0-35"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "a",
+            "b"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export function a() {\n  return 'this is func a';\n}\nexport function b() {\n  return 'this is func b';\n}"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 5,
+      "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\text.js",
+      "name": "./src/search/text.js",
+      "index": 8,
+      "index2": 8,
+      "size": 143,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "module": "./src/search/index.js",
+          "moduleName": "./src/search/index.js",
+          "type": "import()",
+          "userRequest": "./text.js",
+          "loc": "51:6-25"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/search/index.js (referenced with import())"
+      ],
+      "depth": 1,
+      "source": "var React = require('react');\n\nexport default (function () {\n  return /*#__PURE__*/React.createElement(\"div\", null, \"\\u52A8\\u6001 import\");\n});"
+    },
+    {
+      "id": "",
+      "identifier": "css D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+      "index": 5,
+      "index2": 3,
+      "size": 102,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+      "issuerId": 3,
+      "issuerName": "./src/search/search.css",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "name": "./src/search/search.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "module": "./src/search/search.css",
+          "moduleName": "./src/search/search.css"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\demo\\wp-demo\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0",
+        "HtmlWebpackPlugin_1": "__child-HtmlWebpackPlugin_1"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4138,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "__child-HtmlWebpackPlugin_1",
+          "size": 4230,
+          "chunks": [
+            1
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 461,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "cb5528a974a4a9578f01",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\index\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 461,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\index\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\demo\\\\wp-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    \\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\index\\index.html",
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 544,
+          "names": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "hash": "ff6476117a7e3f8a85eb",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 1,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\search\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "index": 1,
+              "index2": 1,
+              "size": 544,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                1
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\search\\index.html",
+                  "loc": "HtmlWebpackPlugin_1"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\demo\\\\wp-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div id=\"root\"><!--HTML_PLACEHOLDER--></div>\\r\\n    <!--INITIAL_DATA_PLACEHOLDER-->\\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_1",
+              "request": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\search\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\index\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 461,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\index\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\demo\\\\wp-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    \\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\search\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+          "index": 1,
+          "index2": 1,
+          "size": 544,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\demo\\wp-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\demo\\wp-demo\\src\\search\\index.html",
+              "loc": "HtmlWebpackPlugin_1"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\demo\\\\wp-demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div id=\"root\"><!--HTML_PLACEHOLDER--></div>\\r\\n    <!--INITIAL_DATA_PLACEHOLDER-->\\r\\n</body>\\r\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\demo\\wp-demo\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2864,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "acb7fcc542c8a7d6e639",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+              "index": 0,
+              "index2": 1,
+              "size": 347,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".search-text {\\r\\n    font-size: 20px;\\r\\n    color: red;\\r\\n    display: flex;\\r\\n    transform: scale(1);\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-94"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+          "index": 0,
+          "index2": 1,
+          "size": 347,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".search-text {\\r\\n    font-size: 20px;\\r\\n    color: red;\\r\\n    display: flex;\\r\\n    transform: scale(1);\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\demo\\wp-demo\\node_modules\\babel-loader\\lib\\index.js!D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\demo\\wp-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\demo\\wp-demo\\src\\search\\search.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/search/search.css",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/search/search.css"
+    }
+  ]
+}

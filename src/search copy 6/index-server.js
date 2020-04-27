@@ -1,10 +1,8 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import './search.less';
-import avatar from '../assets/avatar.jpg';
-import {a} from './tree-shaking';
+const React = require('react');
+const avatar = require('../assets/avatar.jpg');
+require('./search.less');
 
-export default class Search extends React.Component {
+class Search extends React.Component {
     constructor () {
         super(...arguments);
 
@@ -22,19 +20,17 @@ export default class Search extends React.Component {
     }
 
     render () {
+        const { Text } = this.state;
         return (
-            <div class="search-text">
+            <div className="search-text">
                 {
                     Text ? <Text /> : null
                 }
                 Search MichLiu123123
-                <img src={avatar} alt="" onClick= {this.loadComponent.bind(this)}/>
+                <img src={avatar} alt="" onClick={this.loadComponent.bind(this)}/>
             </div>
         )
     }
 }
 
-ReactDom.render(
-    <Search />,
-    document.getElementById('root')
-)
+module.exports = <Search />;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import './search.less';
+import './search.css';
 import avatar from '../assets/avatar.jpg';
 import {a} from './tree-shaking';
 

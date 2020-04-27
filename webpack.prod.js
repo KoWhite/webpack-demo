@@ -1,5 +1,8 @@
 'use static'
 
+const TerserPlugin = require('terser-webpack-plugin');
+const webpack = require('webpack');
+const HappyPack = require('happypack');
 const glob = require('glob');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -11,6 +14,13 @@ const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const speedMeasureWebpackPlugin = require('speed-measure-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const hardSourceWebpackPlugin = require('hard-source-webpack-plugin');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
+
+
+const PATHS = {
+    src: path.join(__dirname, 'src')
+};
 
 const setMPA = () => {
     const entry = {};
@@ -63,8 +73,10 @@ module.exports = smp.wrap({
         rules: [
             {
                 test: /\.js$/,
+                // include: path.resolve('src'),
                 use: [  
-                    'babel-loader'
+                    // 'babel-loader'
+                    'happypack/loader'
                 ]
             },
             {
@@ -131,7 +143,7 @@ module.exports = smp.wrap({
                 
             ]
         }),
-        new BundleAnalyzerPlugin ({analyzerPort: 8889 }),
+        // new BundleAnalyzerPlugin ({analyzerPort: 8889 }),
         // new FriendlyErrorsWebpackPlugin(),
         // function () {
         //     this.hooks.done.tap('done', (stats) => {
@@ -141,7 +153,32 @@ module.exports = smp.wrap({
         //         }
         //     })
         // },
-        
+        new HappyPack({
+            loaders: ['babel-loader?cacheDirectory=true']
+        }),
+        new webpack.DllReferencePlugin({
+            manifest: require('./build/library/library.json')
+        }),
+        new hardSourceWebpackPlugin(),
+        new PurgecssPlugin ({
+            paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
+        })
     ].concat(HtmlWebpackPlugins),
-    stats: 'errors-only'
+    // stats: 'errors-only',
+    // optimization: {
+    //     minimizer: [
+    //         new TerserPlugin({
+    //             parallel: true,
+    //             cache: true
+    //         })
+    //     ],
+    // }
+    // resolve: {
+    //     alias: {
+    //         'react': path.resolve(__dirname, './node_modules/react/umd/react.production.min.js'),
+    //         'react-dom': path.resolve(__dirname, './node_modules/react-dom/umd/react-dom.production.min.js')
+    //     },
+    //     extension: ['.js'],
+    //     mainFields: ['main']
+    // }
 });
