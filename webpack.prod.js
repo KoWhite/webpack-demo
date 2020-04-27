@@ -9,6 +9,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const autoprefixer = require("autoprefixer");
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
+const speedMeasureWebpackPlugin = require('speed-measure-webpack-plugin');
 
 const setMPA = () => {
     const entry = {};
@@ -48,7 +49,9 @@ const setMPA = () => {
 
 const { entry, HtmlWebpackPlugins } = setMPA();
 
-module.exports = {
+const smp = new speedMeasureWebpackPlugin();
+
+module.exports = smp.wrap({
     entry,
     output: {
         path: path.join(__dirname, 'dist'),
@@ -127,15 +130,16 @@ module.exports = {
                 
             ]
         }),
-        new FriendlyErrorsWebpackPlugin(),
-        function () {
-            this.hooks.done.tap('done', (stats) => {
-                if (stats.compilation.errors && process.argv.indexOf('--watch') == -1) {
-                    console.log('build error');
-                    process.exit(1);
-                }
-            })
-        }
+        // new FriendlyErrorsWebpackPlugin(),
+        // function () {
+        //     this.hooks.done.tap('done', (stats) => {
+        //         if (stats.compilation.errors && process.argv.indexOf('--watch') == -1) {
+        //             console.log('build error');
+        //             process.exit(1);
+        //         }
+        //     })
+        // },
+        
     ].concat(HtmlWebpackPlugins),
     stats: 'errors-only'
-}
+});
